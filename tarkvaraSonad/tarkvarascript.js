@@ -64,6 +64,7 @@ function kontroll(type) {
         incorrectCount = incorrectCountEstToRus;
         correctWord = document.getElementById("random-syna-estoniastvenesse").innerHTML;
         correctTranslation = synad[correctWord];
+// Otsimine vene keelest eesti keelde tõlkimiseks asjakohaseid elemente
     } else if (type === 'venestaeesti') {
         correctDiv = document.getElementById("vastus-venestaeesti");
         correctInput = document.getElementById("kontroll-venestaeesti");
