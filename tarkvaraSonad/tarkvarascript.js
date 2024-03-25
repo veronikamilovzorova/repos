@@ -1,5 +1,4 @@
 
-
 //see on sõna
 const synad = {
     'teostus': 'реализация',
