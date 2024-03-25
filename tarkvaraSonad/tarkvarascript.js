@@ -46,7 +46,7 @@ function randomSyna(type) {
         document.getElementById("random-syna-venestaeesti").innerHTML = synad[juhuslikSyna];
     }
 }
-
+/*piiratud ulatusega muutujate deklaratsioonid*/
 function kontroll(type) {
     let correctTranslation;
     let correctWord;
