@@ -55,7 +55,7 @@ function kontroll(type) {
     let correctStats;
     let correctCount;
     let incorrectCount;
-
+// Otsimine eesti keelest vene keelde tõlkimiseks asjakohaseid elemente
     if (type === 'estoniastvenesse') {
         correctDiv = document.getElementById("vastus-estoniastvenesse");
         correctInput = document.getElementById("kontroll-estoniastvenesse");
