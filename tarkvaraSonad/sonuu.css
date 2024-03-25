@@ -1,3 +1,4 @@
+/* stiilide ja tabelite lisamine  */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -16,6 +17,12 @@ h1 {
     text-align: center;
     color: #333;
 }
+
+/*  */
+.container *:not(table) {
+    border: none;
+}
+
 
 table {
     width: 100%;
