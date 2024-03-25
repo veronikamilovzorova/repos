@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarkvara sõnad</title>
+  <link rel="stylesheet" href="sonuu.css">
+  <script src="tarkvarascript.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1>Tarkvara sõnad</h1>
+
+  <table>
+    <tr>
+      <td colspan="4"><h2>Eesti -> Vene</h2></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Juhuslik sõna" onclick="randomSyna('estoniastvenesse')"></td>
+      <td><div id="random-syna-estoniastvenesse"></div></td>
+      <td><label for="kontroll-estoniastvenesse">Kirjuta sõna vene keeles</label></td>
+      <td><input type="text" id="kontroll-estoniastvenesse"></td>
+      <td><button onclick="kontroll('estoniastvenesse')">Kontrolli</button></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="vastus-estoniastvenesse"></div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="stats-estoniastvenesse"></div></td>
+    </tr>
+
+    <tr>
+      <td colspan="4"><h2>Vene -> Eesti</h2></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Juhuslik sõna" onclick="randomSyna('venestaeesti')"></td>
+      <td><div id="random-syna-venestaeesti"></div></td>
+      <td><label for="kontroll-venestaeesti">Kirjuta sõna eesti keeles</label></td>
+      <td><input type="text" id="kontroll-venestaeesti"></td>
+      <td><button onclick="kontroll('venestaeesti')">Kontrolli</button></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="vastus-venestaeesti"></div></td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="stats-venestaeesti"></div></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
